@@ -1,0 +1,39 @@
+body {
+	background-color: white;
+}
+
+#page {
+	width: 50%;
+	height: 370px;
+	background-color: #99ccff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	border: black;
+	padding: 5px 60px;
+	background-color: #4db8ff;
+}
+
+.button:hover{
+	background-color: #1aa3ff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 65%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #d9d9d9}
+tr:nth-child(odd){background-color: #e6e6e6}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
